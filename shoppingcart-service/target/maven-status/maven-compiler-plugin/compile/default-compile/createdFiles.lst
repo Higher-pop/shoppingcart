@@ -1,0 +1,8 @@
+com\service\ProductService.class
+com\service\SUserService.class
+com\service\impl\SUserServiceImpl.class
+com\service\CartService.class
+com\service\impl\CartServiceImpl.class
+com\service\impl\ProductServiceImpl.class
+com\service\CategoryService.class
+com\service\impl\CategoryServiceImpl.class

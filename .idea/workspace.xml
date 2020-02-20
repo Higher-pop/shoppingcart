@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shoppingcart-controller:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cca9211-839e-4f34-a678-c9b6ffbf57e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bbe88584-28df-4afe-b024-ce8fa7db7c42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/bbe88584-28df-4afe-b024-ce8fa7db7c42/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shoppingcart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/ParentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/behind/BeIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/behind/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/behind/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/front/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/front/login/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/front/login/SUserLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/front/menu/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/com/controller/hint/NotAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/java/config/SystemConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/js/admin/category/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/src/main/resources/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/ParentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/behind/BeIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/behind/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/behind/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/front/FrontController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/front/login/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/front/login/SUserLoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/front/menu/HomePageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/com/controller/hint/NotAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/config/SystemConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/js/admin/category/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/classes/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/ParentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/behind/BeIndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/behind/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/behind/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/front/FrontController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/front/login/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/front/login/SUserLoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/front/menu/HomePageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/com/controller/hint/NotAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/config/SystemConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/js/admin/category/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/classes/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/druid-1.1.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/jackson-annotations-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/jackson-core-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/jackson-databind-2.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/shoppingcart-dao-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/shoppingcart-entity-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/shoppingcart-exception-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/shoppingcart-service-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/shoppingcart-util-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-aop-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-beans-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-context-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-core-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-expression-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-jcl-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-jdbc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-tx-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-web-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/lib/spring-webmvc-5.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/be/category/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/be/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/be/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/be/product/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/be/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/be/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/be/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/fe/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/fe/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/fe/viewcart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/views/hint/not_admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/target/shoppingcart-controller-1/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/be/category/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/be/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/be/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/be/product/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/be/product/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/be/product/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/be/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/fe/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/fe/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/fe/viewcart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/views/hint/not_admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-controller/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/java/com/dao/CartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/java/com/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/java/com/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/java/com/dao/SUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/resources/com/dao/mappers/cartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/resources/com/dao/mappers/categoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/resources/com/dao/mappers/productMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/resources/com/dao/mappers/sUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/CartDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/SUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/mappers/cartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/mappers/categoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/mappers/productMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/com/dao/mappers/sUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-dao/target/shoppingcart-dao-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/src/main/java/com/entity/CartEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/src/main/java/com/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/src/main/java/com/entity/ProductAndPImageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/src/main/java/com/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/src/main/java/com/entity/SUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/classes/com/entity/CartEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/classes/com/entity/CategoryEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/classes/com/entity/ProductAndPImageEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/classes/com/entity/ProductEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/classes/com/entity/SUserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-entity/target/shoppingcart-entity-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/src/main/java/com/exception/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/src/main/java/com/exception/DaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/target/classes/com/exception/AppException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/target/classes/com/exception/DaoException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-exception/target/shoppingcart-exception-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/SUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/src/main/java/com/service/impl/SUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/SUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/classes/com/service/impl/SUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-service/target/shoppingcart-service-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/page/PageInfoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/util/ConnectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/util/Druids.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/util/QueryRunnerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/vo/CartItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/vo/CartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/vo/ProductCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/vo/ProductVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/src/main/java/com/vo/UsersCartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/page/PageInfoes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/util/ConnectionHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/util/Druids.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/util/QueryRunnerWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/vo/CartItemVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/vo/CartVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/vo/ProductCategoryVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/vo/ProductVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/classes/com/vo/UsersCartVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart-util/target/shoppingcart-util-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingcart.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shoppingcart@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shoppingcart@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shoppingcart@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shoppingcart: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shoppingcart@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shoppingcart: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="cart: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shoppingcart@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shoppingcart: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="category: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shoppingcart@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shoppingcart: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="product: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="mybatis" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\shoppingcart\shoppingcart\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UPI2HqocOGnEF8ZdyF7ZBR9hP8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="shoppingcart" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17234188" />
+    <property name="project.structure.side.proportion" value="0.4402834" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.controller.front" />
+      <recent name="com.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="config" />
+      <recent name="" />
+      <recent name="com.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\shoppingcart\shoppingcart\shoppingcart-controller\src\main\resources\static\images" />
+      <recent name="E:\shoppingcart\shoppingcart\shoppingcart-controller\web\images" />
+      <recent name="E:\shoppingcart\shoppingcart\shoppingcart-service\src\main\resources" />
+      <recent name="E:\shoppingcart\shoppingcart\shoppingcart-util\src\main\resources" />
+      <recent name="E:\shoppingcart\shoppingcart\shoppingcart-dao\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.util" />
+      <recent name="com.page" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\shoppingcart\shoppingcart\shoppingcart-controller\src\main\resources\static" />
+      <recent name="E:\shoppingcart\shoppingcart\shoppingcart-controller\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.shoppingcart">
+    <configuration name="CategoryServiceImplTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shoppingcart-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.service.impl.CategoryServiceImplTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontControllerTest.index" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shoppingcart-controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.controller.front.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.controller.front" />
+      <option name="MAIN_CLASS_NAME" value="com.controller.front.FrontControllerTest" />
+      <option name="METHOD_NAME" value="index" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shoppingcart [clean,package]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="shoppingcart" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.44" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shoppingcart-controller:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shoppingcart" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53585" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shoppingcart-controller:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.FrontControllerTest.index" />
+      <item itemvalue="JUnit.CategoryServiceImplTest.getAll" />
+      <item itemvalue="Maven.shoppingcart [clean,package]" />
+      <item itemvalue="Tomcat Server.shoppingcart" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FrontControllerTest.index" />
+        <item itemvalue="JUnit.CategoryServiceImplTest.getAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.13678516" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cca9211-839e-4f34-a678-c9b6ffbf57e6" name="Default Changelist" comment="" />
+      <created>1575251594950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575251594950</updated>
+      <workItem from="1575251597842" duration="12953000" />
+      <workItem from="1575332871450" duration="14514000" />
+      <workItem from="1575371328199" duration="2897000" />
+      <workItem from="1575419550530" duration="7992000" />
+      <workItem from="1575432560265" duration="55000" />
+      <workItem from="1575506228868" duration="11402000" />
+      <workItem from="1575545447572" duration="418000" />
+      <workItem from="1575596352523" duration="9438000" />
+      <workItem from="1575806590781" duration="1198000" />
+      <workItem from="1575853865220" duration="13281000" />
+      <workItem from="1575894069646" duration="56719000" />
+      <workItem from="1576199602167" duration="3783000" />
+      <workItem from="1576204636372" duration="1347000" />
+      <workItem from="1576206174205" duration="9387000" />
+      <workItem from="1576411385607" duration="1284000" />
+      <workItem from="1576463735877" duration="16092000" />
+      <workItem from="1576540759300" duration="98000" />
+      <workItem from="1576545938412" duration="55279000" />
+      <workItem from="1576754023203" duration="2446000" />
+      <workItem from="1576799432458" duration="12303000" />
+      <workItem from="1576824923227" duration="2196000" />
+      <workItem from="1577012068299" duration="8916000" />
+      <workItem from="1577056172878" duration="19732000" />
+      <workItem from="1577159772609" duration="149000" />
+      <workItem from="1577189958282" duration="2173000" />
+      <workItem from="1577256764266" duration="142000" />
+      <workItem from="1577342369815" duration="10076000" />
+      <workItem from="1577669696460" duration="2258000" />
+      <workItem from="1578971926347" duration="3648000" />
+      <workItem from="1578988445774" duration="4733000" />
+      <workItem from="1579065227499" duration="1811000" />
+      <workItem from="1579482087831" duration="5156000" />
+      <workItem from="1579592393340" duration="167000" />
+      <workItem from="1579592594183" duration="46000" />
+      <workItem from="1579594158951" duration="761000" />
+      <workItem from="1579659701284" duration="570000" />
+      <workItem from="1579742503647" duration="1047000" />
+      <workItem from="1580204947913" duration="9815000" />
+      <workItem from="1580960235843" duration="2702000" />
+      <workItem from="1581129515410" duration="1385000" />
+      <workItem from="1581246726122" duration="1345000" />
+      <workItem from="1581298914619" duration="1225000" />
+      <workItem from="1581567017646" duration="258000" />
+      <workItem from="1582121062427" duration="552000" />
+      <workItem from="1582121792894" duration="170000" />
+      <workItem from="1582177944519" duration="668000" />
+      <workItem from="1582184953085" duration="90000" />
+      <workItem from="1582185076116" duration="2633000" />
+      <workItem from="1582188175086" duration="1786000" />
+      <workItem from="1582190001119" duration="1909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580261873816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580261873816" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1579487408248">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579487408248" />
+    <state x="209" y="0" key="CommitChangelistDialog2" timestamp="1582192269133">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="209" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582192269133" />
+    <state x="463" y="122" width="780" height="484" key="FileChooserDialogImpl" timestamp="1582189423721">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" width="780" height="484" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582189423721" />
+    <state width="1084" height="370" key="GridCell.Tab.0.bottom" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.0.center" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.0.left" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.0.right" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.1.bottom" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.1.center" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.1.left" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.1.right" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.2.bottom" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.2.center" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.2.left" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.2.right" timestamp="1582188470815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1582188470815" />
+    <state width="1084" height="370" key="GridCell.Tab.3.bottom" timestamp="1582188470816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582188470816" />
+    <state width="1084" height="370" key="GridCell.Tab.3.center" timestamp="1582188470816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1582188470816" />
+    <state width="1084" height="370" key="GridCell.Tab.3.left" timestamp="1582188470816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1582188470816" />
+    <state width="1084" height="370" key="GridCell.Tab.3.right" timestamp="1582188470816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1084" height="370" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1582188470816" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1582189312155">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582189312155" />
+    <state x="563" y="244" width="336" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582121961064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="563" y="244" width="336" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1582121961064" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1578994186122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1578994186122" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-2" timestamp="1578994186122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1578994186122" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578994163173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578994163173" />
+    <state x="513" y="158" key="svn.repositoryBrowser" timestamp="1582188951233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="158" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1582188951233" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shoppingcart$shoppingcart.ic" NAME="shoppingcart Coverage Results" MODIFIED="1576803243753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

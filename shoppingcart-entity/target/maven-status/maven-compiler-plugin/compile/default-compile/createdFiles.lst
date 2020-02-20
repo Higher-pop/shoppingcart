@@ -1,0 +1,5 @@
+com\entity\ProductEntity.class
+com\entity\CartEntity.class
+com\entity\ProductAndPImageEntity.class
+com\entity\SUserEntity.class
+com\entity\CategoryEntity.class

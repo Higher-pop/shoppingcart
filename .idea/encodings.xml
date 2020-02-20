@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shoppingcart-util/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

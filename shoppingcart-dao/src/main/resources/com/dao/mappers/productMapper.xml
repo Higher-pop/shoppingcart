@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.ProductDao">
+    <insert id="insert" >
+        insert into product(pname, pdesc, unitprice, pimage, cid) values (#{pname},#{pdesc},#{unitprice},#{pimage},#{cid})
+    </insert>
+
+    <delete id="deleteById" >
+        delete from product where pid=#{pid}
+    </delete>
+
+    <update id="update" >
+        update product set pname=#{pname},pdesc=#{pdesc},unitprice=#{unitprice},pimage=#{pimage},cid=#{cid} where pid=#{pid}
+    </update>
+
+    <select id="getById" resultType="com.entity.ProductEntity">
+        select pid,pname,pdesc,unitprice,pimage,cid from product where pid=#{pid}
+    </select>
+
+    <select id="getAll" resultMap="productMap">
+        select pid,pname,pdesc,unitprice,pimage,cid from product
+    </select>
+    <resultMap id="productMap" type="com.entity.ProductEntity">
+        <id column="pid" property="cid"></id>
+        <result property="pname" column="pname"/>
+        <result property="pdesc" column="pdesc"></result>
+        <result property="unitprice" column="unitprice"/>
+        <result property="pimage" column="pimage"/>
+        <result property="cid" column="cid"/>
+    </resultMap>
+</mapper>
